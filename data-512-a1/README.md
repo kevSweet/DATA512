@@ -7,7 +7,7 @@ that will be used to visualize the changes in the number of users accessing Wiki
 
 ## Data Source
 [WikiMedia REST API](https://wikimedia.org/api/rest_v1/#/Pageviews%20data)  
-[WikiMedia API Terms Of Use] (https://www.mediawiki.org/wiki/REST_API#Terms_and_conditions)  
+[WikiMedia API Terms Of Use](https://www.mediawiki.org/wiki/REST_API#Terms_and_conditions)  
 
 ## Python Packages Used
 notebook  
