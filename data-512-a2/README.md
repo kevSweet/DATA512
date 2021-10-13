@@ -18,40 +18,40 @@ install in your CLI by running:
 
 
 ## Data Dictionary for wp_wpds_politicians_by_country.csv
-country: Name of Country
-article_name: name of politician's wiki page
-revision_id: wikipedia id for the article
-article_quality_est: quality prediction made by ORES
-population: total population of the country at Timeframe
-sub_region: Regions of interest for aggregation extracted from the rows of WPDS
+country: Name of Country 
+article_name: name of politician's wiki page 
+revision_id: wikipedia id for the article 
+article_quality_est: quality prediction made by ORES 
+population: total population of the country at Timeframe 
+sub_region: Regions of interest for aggregation extracted from the rows of WPDS 
 
 ## Data Dictionary for WPDS_2020_data.csv
 FIPS: Identifier for country/Region 
-Name: Name of Country/Region
-Type: Country/Region/World category
-TimeFrame: Year data originates from
-Data (M): Not certain what this is for, but not used in this analysis
-Population: total population of the country at Timeframe
+Name: Name of Country/Region 
+Type: Country/Region/World category 
+TimeFrame: Year data originates from 
+Data (M): Not certain what this is for, but not used in this analysis 
+Population: total population of the country at Timeframe 
 
 
 ## Data Dictionary for page_data.csv
-page: name of politician's wiki page
-country: country the politician is from
-rev_id: wikipedia id for the article
+page: name of politician's wiki page 
+country: country the politician is from 
+rev_id: wikipedia id for the article 
 
 ## Data Dictionary for wp_wpds_countries-no_match.csv
-page: name of politician's wiki page
-country: country the politician is from
-rev_id: wikipedia id for the article
-prediction: quality prediction made by ORES
+page: name of politician's wiki page 
+country: country the politician is from 
+rev_id: wikipedia id for the article 
+prediction: quality prediction made by ORES 
 FIPS: Identifier for country/Region 
-Name: Name of Country/Region
-Type: Country/Region/World category
-TimeFrame: Year data originates from
-Data (M): Not certain what this is for, but not used in this analysis
-Population: total population of the country at Timeframe
-Sub-Region: Regions of interest for aggregation extracted from the rows of WPDS
+Name: Name of Country/Region 
+Type: Country/Region/World category 
+TimeFrame: Year data originates from 
+Data (M): Not certain what this is for, but not used in this analysis 
+Population: total population of the country at Timeframe 
+Sub-Region: Regions of interest for aggregation extracted from the rows of WPDS 
 
 ## Data Dictionary for not_scored_log.csv
-rev_id: Log of all wikipedia rev ids that did not have corresponding quality predictions found using ORES
+rev_id: Log of all wikipedia rev ids that did not have corresponding quality predictions found using ORES 
 
