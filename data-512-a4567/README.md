@@ -6,11 +6,11 @@ The goal of this project is to combine data on politicians across the world alon
 
 ## Data Sources  
 [Illinois Report Card Data](https://www.isbe.net/pages/illinois-state-report-card-data.aspx)  
-[Chicago Public Schools Dropout Rates](https://www.cps.edu/about/district-data/metrics/)
-[City of Chicago Progress Reports](https://data.cityofchicago.org/Education/Chicago-Public-Schools-School-Progress-Reports-SY2/ngix-dc87)
-[RAW_us_confirmed_cases](https://www.kaggle.com/antgoldbloom/covid19-data-from-john-hopkins-university?select=RAW_us_confirmed_cases.csv)
-[State and Territorial Mask Mandates](https://data.cdc.gov/Policy-Surveillance/U-S-State-and-Territorial-Public-Mask-Mandates-Fro/62d6-pm5i)
-[Mask Use Survey](https://github.com/nytimes/covid-19-data/tree/master/mask-use)
+[Chicago Public Schools Dropout Rates](https://www.cps.edu/about/district-data/metrics/)  
+[City of Chicago Progress Reports](https://data.cityofchicago.org/Education/Chicago-Public-Schools-School-Progress-Reports-SY2/ngix-dc87)  
+[RAW_us_confirmed_cases](https://www.kaggle.com/antgoldbloom/covid19-data-from-john-hopkins-university?select=RAW_us_confirmed_cases.csv)  
+[State and Territorial Mask Mandates](https://data.cdc.gov/Policy-Surveillance/U-S-State-and-Territorial-Public-Mask-Mandates-Fro/62d6-pm5i)  
+[Mask Use Survey](https://github.com/nytimes/covid-19-data/tree/master/mask-use)  
 
 ## Python Packages Used
 pandas
@@ -34,7 +34,7 @@ was the mask mandates dataset, the confirmed cases dataset, and the
 state education dataset. All other datasets were used in exploratory data analysis and will
 not be documented in the data dictionary.
 
-### Data Dictionary for state_data.csv
+### state_data.csv
 Year: School year for which data is collected  
 RCDTS:Unique school identifier  
 School Name: Name of school  
@@ -51,7 +51,7 @@ Teacher Retention Rate: Three year average of the percentage of teachers returni
 
 For more detailed definitions, see [here](https://www.isbe.net/Documents/2021-Report-Card-Glossary-Terms.pdf)  
 
-### Data Dictionary for U.S._State_and_Territorial_Public_Mask_Mandates_From_April_10__2020_through_August_15__2021_by_County_by_Day.csv
+### U.S._State_and_Territorial_Public_Mask_Mandates_From_April_10__2020_through_August_15__2021_by_County_by_Day.csv
 Dataset is too large to be included in repository. See "State and Territorial Mask Mandates" link above and include it in the same directory  
 as this readme.  
 
@@ -66,7 +66,7 @@ Source_of_Action: Type of data source
 URL: URL for data source  
 Citation: Type of data source  
 
-### Data Dictionary for RAW_us_confirmed_cases.csv  
+### RAW_us_confirmed_cases.csv  
 Province_State: U.S. State  
 Admin2: County  
 UID: Unique identifier  
